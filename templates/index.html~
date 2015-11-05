@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>my website</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css.css')}}">
+</head>
+<body>
+<h1>Loay's website</h1>
+<ul> 
+	<il><a href="{{url_for('index')}}">home</a></il>
+	<il><a href="{{url_for('about')}}">about</a></il>
+	<il><a href="{{url_for('contact')}}">contact us</a></il>
+</ul>
+
+<h2>Welcome</h2>
+<p>hello and welcome to my website. This is my project for Y2 yearlong </p>
+<center>
+<img src="http://corgiorgy.com/corgiswimflip.gif">
+</center>
+<p>P.S I really like DOGS<p>
+</body>
+</html>

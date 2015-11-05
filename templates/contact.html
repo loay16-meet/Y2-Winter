@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>my website</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css.css')}}">
+</head>
+<body>
+<h1>Loay's website</h1>
+<ul> 
+	<il><a href="{{url_for('index')}}">home</a></il>
+	<il><a href="{{url_for('about')}}">about</a></il>
+	<il><a href="{{url_for('contact')}}">contact us</a></il>
+</ul>
+
+<h2>for more info you can contact me at:</h2>
+<center>
+ <table border="1">
+  <tr>
+    <th>contact</th>
+    <th>link</th>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>loay.laham@gmail.com</td>
+  </tr>
+  <tr>
+    <td>phone</td>
+    <td>052-somehing-something</td>
+  </tr>
+</table>
+</center> 
+<p>*buisness only</p>
+</body>
+</html>
